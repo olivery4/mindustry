@@ -2,7 +2,7 @@
   "type": "battery",
   "name": "mega-battery",
   "localizedName": "Mega Battery",
-  "size": 6,
+  "size": 3,
   "description": "Just a big battery.",
   "health": 2000,
   "canOverdrive": true,
