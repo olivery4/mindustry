@@ -1,1 +1,21 @@
-
+{
+  "type": "battery",
+  "name": "mega-battery",
+  "localizedName": "Mega Battery",
+  "size": 6,
+  "description": "Just a big battery.",
+  "health": 2000,
+  "canOverdrive": true,
+  "category": "power",
+  "buildVisibility": "shown",
+  "minGameVersion": 136,
+  "consumes": {
+    "powerBuffered": 400000.0
+  },
+  "requirements": [
+    { "item": "phase-fabric", "amount": 50 },
+    { "item": "graphite", "amount": 125 },
+    { "item": "titanium", "amount": 100 }
+  ],
+  "research": "battery-large"
+}
