@@ -1,6 +1,6 @@
 {
   "type": "battery",
-  "name": "mega-battery",
+  "name": "a-pretty-big-battery",
   "localizedName": "Mega Battery",
   "size": 3,
   "description": "Just a big battery.",
