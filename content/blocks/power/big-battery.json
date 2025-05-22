@@ -1,21 +1,15 @@
-{
-  "type": "battery",
-  "name": "a-pretty-big-battery",
-  "localizedName": "Mega Battery",
-  "size": 3,
-  "description": "Just a big battery.",
-  "health": 2000,
-  "canOverdrive": true,
-  "category": "power",
-  "buildVisibility": "shown",
-  "minGameVersion": 136,
-  "consumes": {
-    "powerBuffered": 400000.0
-  },
-  "requirements": [
-    { "item": "phase-fabric", "amount": 50 },
-    { "item": "graphite", "amount": 125 },
-    { "item": "titanium", "amount": 100 }
-  ],
-  "research": "battery-large"
+type: Battery
+name: Huge Battery
+description: A very large battery.
+size: 4
+hasPower: true
+consumes: {
+  powerBuffered: 500000
 }
+requirements: [
+  lead/40
+  silicon/120
+  thorium/40
+]
+category: power
+research: battery-large
