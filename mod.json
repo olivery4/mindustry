@@ -1,5 +1,6 @@
-"name": "Mega-Battery",
-"author": "Oliver",
-"description": "Adds a large battery block to Mindustry.",
-"version": "1.0",
-"minGameVersion": "136"
+name: "more-batteries"
+displayName: "[yellow]More Batteries"
+author: "e"
+description: "A mod that adds more batteries."
+version: "1"
+minGameVersion: "136"
