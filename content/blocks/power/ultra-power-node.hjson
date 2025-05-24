@@ -5,7 +5,7 @@ name: ultra-power-node
 localizedName: Ultra Power Node
 description: A custom node with extended range and many connections.
 
-size: 2
+size: 1
 health: 200
 
 // Same category as vanilla power nodes
@@ -18,6 +18,8 @@ hasPower: true
 laserRange: 45          // 1.5x large node (30 * 1.5)
 maxNodes: 30            // Max connected nodes
 powerConnections: 30    // Total outgoing connections
+
+research: power-node-large
 
 requirements: [
   { item: titanium, amount: 60 }
